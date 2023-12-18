@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+* {
+	font-family: "Rubik", sans-serif;
+}
+th {
+	color: #464545;
+}
+body.antialiased table.table-hover thead tr th.sorting {
+	font-size: 12px !important;
+}
+
+nav.navbar-collapsed .b-brand .b-bg {
+	background: none;
+	width: 50px;
+	max-width: 100%;
+	height: auto;
+	background-size: contain;
+}
+
+nav.navbar-collapsed:hover .b-brand .b-bg {
+	background: none;
+	width: 135px !important;
+	max-width: 100%;
+	height: auto;
+	background-size: contain;
+}
+
+.b-brand .b-bg {
+	background: none;
+	width: 135px;
+	max-width: 100%;
+	height: auto;
+	background-size: contain;
+}
+.nav-link:focus,
+.nav-link:hover {
+	color: #3ebfea !important;
+}
+
+button.custom-add-button {
+	height: 42px;
+	margin: 37px 0 auto 20px;
+}
+.fas.fa-trash,
+.fa-solid.fa-trash-can {
+	cursor: pointer;
+	color: #3ebfea;
+	font-weight: 700;
+}
+.card .card-header h5.aggiungi-pagamento:after {
+	left: -12px;
+}
+.delete-row input {
+	background: none;
+	color: #e34234;
+	border: none;
+}
+/* .delete-row button, .delete-row a, tr button, table tr td button {
+    color: #E34234 !important;
+    box-shadow: none !important;
+    background: none !important;
+    border: none !important;
+} */
+.delete-row .btn-primary:hover {
+	color: #e34234;
+}
+.modal-body.d-flex.justify-content-end input {
+	border: none;
+	border-radius: 5px;
+}
+.search-custom input {
+	border-radius: 2.25rem !important;
+}
+
+.pcoded-navbar .pcoded-inner-navbar li > a {
+	margin: 0 !important;
+}
+
+.fa-circle-plus {
+	color: #3ebfea;
+	font-size: 2em;
+}
+.fa-trash-can,
+.fas.fa-edit {
+	font-size: 1.2em;
+}
+.fixed-button .btn {
+	display: none;
+}
+.importi-commesse {
+	background-color: #3ebfea;
+	border-radius: 5px;
+}
+.container .row.welcome {
+	max-height: 80px;
+}
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #ffffff;
+	border: none;
+	cursor: default;
+}
+.form-control:disabled,
+.form-control[readonly]:focus {
+	border: none;
+	box-shadow: none;
+}
+tbody tr.clickable {
+	cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+	.container .row.welcome {
+		max-height: none;
+	}
+	#accordionTasks .card-header button.btn {
+		white-space: normal;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.overlay-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Sfondo sfocato */
+	z-index: 9998; /* Profondità dello sfondo sfocato */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader-distribution {
+	background-color: #ffffff; /* Colore di sfondo del loader */
+	top: 50%;
+	padding: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ombra */
+	z-index: 9999; /* Profondità del loader (superiore allo sfondo sfocato) */
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loader-distribution i {
+	font-size: 40px; /* Dimensione dell'icona */
+	animation: spin 2s linear infinite; /* Animazione di rotazione */
+	margin-bottom: 10px; /* Spazio tra l'icona e il testo */
+}
+
+
+.message-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Sfondo semi-trasparente */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1050;
+	/* Adegua secondo la tua struttura z-index */
+}
+
+
+.alert {
+	margin-bottom: 10px;
+	/* Spaziatura tra messaggi multipli */
+}
+
+.close-button {
+	position: relative;
+	z-index: 9999;
+	top: 10px;
+	right: 5px;
+	background: white;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 10px;
+	padding-inline: 9px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	float: inline-end;
+}
+
+.alert-successo {
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+	color: #155724;
+	border-radius: 10px;
+}
+
+.alert-errore {
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	color: #721c24;
+	border-radius: 10px;
+}

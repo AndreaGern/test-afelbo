@@ -1,0 +1,15 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import './theme-style.css';
+@import './custom.css';
+@import '../fonts/fontawesome/css/fontawesome-all.min.css';
+td {
+    font-size: 12px;
+}
+.yellow-background{
+    background-color:#fae04e !important;
+}
+
+.red-background{
+    background-color: rgba(253, 13, 0, 0.333) !important;
+    color: white !important;
+}
